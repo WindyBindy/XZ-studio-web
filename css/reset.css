@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+}
