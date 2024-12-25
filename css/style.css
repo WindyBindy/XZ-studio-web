@@ -114,3 +114,77 @@ top: 400px; */
 margin-left: auto;
 }
 
+/* about-us */
+
+.title-about-us{
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 153.533%; /* 73.696px */
+letter-spacing: -1.92px;
+margin-top: 58px;
+}
+
+.text-about-us{
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 126.412%; /* 45.508px */
+letter-spacing: -0.72px;
+}
+
+
+.img-first-game{
+    border-radius: 50px;
+    width: 398px;
+height: 326px;
+flex-shrink: 0;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.title-of-the-game{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 72.025px */
+}
+
+
+
+.download-game{
+    color: #FFD035;
+text-align: center;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 48.017px */
+}
+
+
+.bio-of-game{
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 126.412%; /* 50.565px */
+letter-spacing: -0.8px;
+width: 411px;
+height: 188px;
+}
