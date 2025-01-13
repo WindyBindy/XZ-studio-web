@@ -188,3 +188,77 @@ letter-spacing: -0.8px;
 width: 411px;
 height: 188px;
 }
+
+.about-us-btn{
+    color: #FFD035;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.533%; /* 55.272px */
+    letter-spacing: -1.44px;
+     border-radius: 25px;
+     border: 6px solid #FFD035;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     display: flex; 
+     width: 245px;
+     height: 85px;
+    align-items: center;
+    justify-content: center;
+    }
+/* screenshot */
+.rabbit-parkur-screenshots-title{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 72.025px */
+}
+
+.rabbit-parkur-screenshots-text{
+    color: #FFD035;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 126.412%; /* 45.508px */
+letter-spacing: -0.72px;
+}
+
+/* team */
+.team-title{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 72.025px */
+}
+
+
+.team-name{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 54.019px */
+}
+
+
+.team-resume{
+    color: #FFD035;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150.052%; /* 36.013px */
+}
