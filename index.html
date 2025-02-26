@@ -7,6 +7,7 @@
 		<link rel="icon" href="./img/Logo.png" />
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./scss/main.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -24,6 +25,14 @@
 					height="50px"
 					class="logo"
 				/>
+				<button type="button" class="header__btn" data-modal-header-open>
+					<!-- <svg class="header__menu">
+						<use href="./img/symbol-defs.svg#icon-menu"></use>
+					</svg> -->
+					<svg id="header__menu" viewBox="0 0 32 32" fill="#ffd035" width="60" height="60">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z" fill="#ffd035"></path>
+					</svg>
+				</button>
 				<nav class="header-nav">
 					<ul class="header-list">
 						<li class="header-item">
@@ -43,6 +52,25 @@
 				<svg class="icon-header">
 					<use href="./img/symbol-defs.svg#icon-git-hub"></use>
 				</svg>
+				
+				<div data-header-modal class="menu is-hidden">
+          <button data-modal-header-close class="menu__btn" type="button">
+            
+						<svg class="menu__close" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="#ffd035">
+  <path d="M18.6667 1.88L16.7867 0L9.33333 7.45334L1.88 0L0 1.88L7.45334 9.33333L0 16.7867L1.88 18.6667L9.33333 11.2133L16.7867 18.6667L18.6667 16.7867L11.2133 9.33333L18.6667 1.88Z" fill="#ffd035"/>
+</svg>
+          </button>
+					<ul>
+						<li><a href="./index.html" class="header__link"
+								><span class="span__header">XZ</span> Studio</a
+							></li>
+						<li><a href="./pages/portfolio.html" class="header__link">Portfolio</a></li>
+						<li><li class="header-item">
+							<a href="#" class="header__link">Contacts</a>
+						</li></li>
+					</ul>
+          
+          
 			</div>
 		</header>
 		<main>
@@ -170,4 +198,5 @@
 			</div>
 		</footer>
 	</body>
+	<script src="./js/menu.js"></script>
 </html>
