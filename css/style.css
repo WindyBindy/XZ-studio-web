@@ -4,7 +4,9 @@
 	margin-right: auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	outline: 1px solid black;
+	/* outline: 1px solid black; */
+	border: none;
+	outline: none;
 }
 body {
 	font-family: 'Poppins';
