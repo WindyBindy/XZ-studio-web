@@ -1,3 +1,14 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* outline: 1px solid black; */
+  border: transparent;
+  outline: transparent;
+  color: transparent;
+}
+
 .header__btn {
   border: none;
   background-color: transparent;
@@ -81,6 +92,17 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150.863%; /* 36.207px */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* outline: 1px solid black; */
+  border: transparent;
+  outline: transparent;
+  color: transparent;
 }
 
 .portfolio__box {
