@@ -459,7 +459,6 @@ top: 400px; */
 		margin-right: auto;
 		padding-left: 20px;
 		padding-right: 20px;
-		outline: 1px solid black;
 	}
 	h1 {
 		text-align: left;
@@ -530,7 +529,6 @@ top: 400px; */
 		margin-right: auto;
 		padding-left: 20px;
 		padding-right: 20px;
-		outline: 1px solid black;
 	}
 
 	.modal-btn {
@@ -617,7 +615,6 @@ top: 400px; */
 		margin-right: auto;
 		padding-left: 20px;
 		padding-right: 20px;
-		outline: 1px solid black;
 	}
 	.team-text {
 		width: 385px;
