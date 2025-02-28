@@ -1,0 +1,31 @@
+.footer__link {
+	color: #000;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150.863%;
+	letter-spacing: -0.24px;
+	transition-property: color;
+	transition-duration: 400ms;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	&:hover {
+		color: #ffd035;
+	}
+	@media screen and (min-width: 484px) {
+		color: #000;
+		font-family: Poppins;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 150.863%;
+		letter-spacing: -0.24px;
+		transition-property: color;
+		transition-duration: 400ms;
+		border: none;
+		background-color: transparent;
+		padding: 0;
+	}
+}

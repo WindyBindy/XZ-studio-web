@@ -45,7 +45,8 @@
 						</li>
 
 						<li class="header-item">
-							<a href="#" class="header-a">Contacts</a>
+							<button class="header-a hero__butten" type="button" data-modal-open>Contacts</button>
+							
 						</li>
 					</ul>
 				</nav>
@@ -66,7 +67,7 @@
 							></li>
 						<li><a href="./pages/portfolio.html" class="header__link">Portfolio</a></li>
 						<li><li class="header-item">
-							<a href="#" class="header__link">Contacts</a>
+							<a type="button" class="header__link" data-modal-menu-open>Contacts</a>
 						</li></li>
 					</ul>
           
@@ -163,7 +164,7 @@
 							<a href="./pages/portfolio.html" class="footer-link">Portfolio</a>
 						</li>
 						<li class="footer-item">
-							<a href="#" class="footer-link">Contacts</a>
+							<button class="footer__link hero__butten" type="button" data-modal-footer-open>Contacts</button>
 						</li>
 					</ul>
 				</nav>
@@ -172,31 +173,79 @@
 						<li class="blog-item">
 							<a href="#" class="blog-link"
 								><svg class="icon-footer">
-									<use href="./img/symbol-defs.svg#icon-git-hub"></use></svg
-							></a>
+									<use href="./img/symbol-defs.svg#icon-git-hub"></use></svg></a>
 						</li>
 						<li class="blog-item">
 							<a href="#" class="blog-link"
 								><svg class="icon-footer">
-									<use href="./img/symbol-defs.svg#icon-discord"></use></svg
-							></a>
+									<use href="./img/symbol-defs.svg#icon-discord"></use></svg></a>
 						</li>
 						<li class="icon-footer">
 							<a href="#" class="blog-link"
 								><svg class="icon-footer">
-									<use href="./img/symbol-defs.svg#icon-youtube"></use></svg
-							></a>
+									<use href="./img/symbol-defs.svg#icon-youtube"></use></svg></a>
 						</li>
 						<li class="icon-footer">
 							<a href="#" class="blog-link"
 								><svg class="icon-footer">
-									<use href="./img/symbol-defs.svg#icon-instagram"></use></svg
-							></a>
+									<use href="./img/symbol-defs.svg#icon-instagram"></use></svg></a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</footer>
+		
+		<div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <h2 class="modal__wright">Contacts</h2>
+					<ul class="modal__list">
+						<li class="modal__item"><a href="mailto:info@xzstudio.com" class="modal__link"> info@devstudio.com</a></li>
+						<li class="modal__item"><a href="tel:+380961111111" class="modal__link"> +38 096 17 11 11</a></li>
+					</ul>
+					<button type="button" class="btn__close" data-modal-close>
+              <svg class="form__close">
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+          
+        </div>
+      </div>
+
+			<div class="backdrop is-hidden" data-modal-footer>
+        <div class="modal">
+          <h2 class="modal__wright">Contacts</h2>
+					<ul class="modal__list">
+						<li class="modal__item"><a href="mailto:info@xzstudio.com" class="modal__link"> info@devstudio.com</a></li>
+						<li class="modal__item"><a href="tel:+380961111111" class="modal__link"> +38 096 17 11 11</a></li>
+					</ul>
+					<button type="button" class="btn__close" data-modal-footer-close>
+              <svg class="form__close">
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+          
+        </div>
+      </div>
+
+			<div class="backdrop is-hidden" data-modal-menu>
+        <div class="modal">
+          <h2 class="modal__wright">Contacts</h2>
+					<ul class="modal__list">
+						<li class="modal__item"><a href="mailto:info@xzstudio.com" class="modal__link"> info@devstudio.com</a></li>
+						<li class="modal__item"><a href="tel:+380961111111" class="modal__link"> +38 096 17 11 11</a></li>
+					</ul>
+					<button type="button" class="btn__close" data-modal-menu-close>
+              <svg class="form__close">
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+          
+        </div>
+      </div>
+
 	</body>
+	<script src="./js/modal.js"></script>
 	<script src="./js/menu.js"></script>
+	<script src="./js/modal footer.js"></script>
+	<script src="./js/modal footer menu.js"></script>
 </html>

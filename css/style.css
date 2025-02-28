@@ -28,6 +28,8 @@ body {
 	letter-spacing: -0.96px;
 	transition-property: color;
 	transition-duration: 400ms;
+	background-color: transparent;
+	border: none;
 }
 
 .header-a:hover {
