@@ -14,6 +14,7 @@
 			href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -76,10 +77,10 @@
 		</header>
 		<main>
 			<!-- hero -->
-			<section class="hero">
+			<section class="hero" >
 				<div class="container hero-box">
-					<h1 class="h1">Creating games of the future</h1>
-					<a href="#" class="modal-btn">Join us</a>
+					<h1 class="h1" data-aos="fade-right" data-aos-duration="300">Creating games of the future</h1>
+					<a href="#" class="modal-btn" data-aos="fade-down" data-aos-duration="300">Join us</a>
 					<!-- modal btn-->
 				</div>
 			</section>
@@ -89,7 +90,7 @@
 					<h2 class="title-about-us">About us</h2>
 					<p class="text-about-us">our first game</p>
 					<div class="about">
-						<div class="card-game">
+						<div class="card-game" data-aos="fade-left">
 							<img
 								src="./img/first-game.png"
 								alt="game"
@@ -115,9 +116,9 @@
 					<h2 class="rabbit-parkur-screenshots-title">Rabbit Parkur</h2>
 					<h3 class="rabbit-parkur-screenshots-text">screenshots</h3>
 					<ul class="screenshots-list">
-						<li><img src="./img/screenshot-first.jpg" alt="" width="519" /></li>
+						<li><img src="./img/screenshot-first.jpg" alt="" width="519" data-aos="fade-right"/></li>
 						<li>
-							<img src="./img/screenshot-second.jpg" alt="" width="519" />
+							<img src="./img/screenshot-second.jpg" alt="" width="519" data-aos="fade-down"/>
 						</li>
 					</ul>
 				</div>
@@ -127,20 +128,20 @@
 				<div class="container our-team-box">
 					<h2 class="team-title">Our team</h2>
 					<ul class="team-list">
-						<li class="team-item">
+						<li class="team-item" data-aos="fade-right" data-aos-duration="300">
 							<img src="./img/Nikita.png" alt="img" class="our-ream-img" />
 							<p class="team-name">Vlad</p>
-							<a href="#" class="team-resume">resume</a>
+							<a href="#" class="team-resume" >resume</a>
 						</li>
-						<li class="team-item">
+						<li class="team-item" data-aos="fade-down" data-aos-duration="300">
 							<img src="./img/kate.png" alt="img" class="our-ream-img" />
 							<p class="team-name">Kate</p>
-							<a href="#" class="team-resume">resume</a>
+							<a href="#" class="team-resume" >resume</a>
 						</li>
-						<li class="team-item">
+						<li class="team-item" data-aos="fade-left" data-aos-duration="300">
 							<img src="./img/vlad.png" alt="img" class="our-ream-img" />
 							<p class="team-name">Nikita</p>
-							<a href="#" class="team-resume">resume</a>
+							<a href="#" class="team-resume" >resume</a>
 						</li>
 					</ul>
 
@@ -248,4 +249,8 @@
 	<script src="./js/menu.js"></script>
 	<script src="./js/modal footer.js"></script>
 	<script src="./js/modal footer menu.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </html>
